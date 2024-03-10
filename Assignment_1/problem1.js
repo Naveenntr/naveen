@@ -1,3 +1,4 @@
+//Generate * pattern to construct a pyramid
 let n=5
 for (let i=1;i<=n;i++)
 {
@@ -15,3 +16,4 @@ for (let i=1;i<=n;i++)
     }
       console.log(row)
     }
+ //input n=5
