@@ -1,0 +1,27 @@
+basic pronlem 
+class student{
+    constructor(name,age,grade)
+    {
+        this.name=name
+        this.age=age
+        this.grade=grade
+    }
+
+    displaydetails()
+    {
+        console.log("name",this.name,"age",this.age,"& grade",this.grade)
+    }
+
+    promote()
+    {
+        this.grade++
+        console.log(this.grade)
+    }
+}
+
+let student1= new student("rahul",25,8);
+let student2= new student("kiran",22,6);
+
+student1.displaydetails()
+student1.displaydetails()
+student1.promote()

@@ -1,0 +1,32 @@
+CREATE DATABASE - in order crete data base 
+USE opqtechh  - use that perticular data base 
+CREATE TABLE - to create table 
+
+id INT PRIMARY KEY AUTO_INCREMENT - in ordee to set periry key & auto incriment 
+ 
+NOT NULL - in order make perticulat atribute not null
+
+DEFAULT "no entry" -  if perticular atrubute should not be in null then we should use default
+ALTER TABLE - In order to add / make changes in perticulat table
+
+ADD CONSTRAINT fk_batch_id FOREIGN KEY(batch_id) REFERENCES batches(id)  -  Just referest how to add forigin key 
+
+INSERT INTO - in order to incest data 
+
+UPDATE student - in order to update perticular
+SET first_name = "ALLU", last_name = "ARJUN"
+WHERE id = 2; 
+
+SELECT * - in order to see table & * represent all colums 
+FROM student
+
+if we want perticualr coloum 
+
+WHERE id = 1;
+
+
+
+
+
+ 
+ 

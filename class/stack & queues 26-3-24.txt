@@ -1,0 +1,112 @@
+
+Stack - Stack is data structure which operates on principle of last  in first out 
+
+It supports above priciple by providing
+1- push - add element to last 
+2 - pop - remove element from last 
+
+
+
+
+Problem on stack 
+class stack
+{
+    constructor(capacity)
+    {
+        this.memory=[];
+        this.capacity=capacity;
+    }
+
+
+push(element)
+{
+    if(this.memory.length<this.capacity)
+    {
+        this.memory.push(element)
+        
+    }
+    else
+    {
+        console.log("stack is full")
+    }
+}
+Pop()
+{
+    if(this.memory.length>0)
+    {
+        let b=  this.memory.pop()
+        console.log(" element b is", b,"is removed")
+    }
+    else
+    {
+        console.log("stack is empty")
+    }
+}
+printstacl()
+{
+        console.log(this.memory.join(', '))
+}
+}
+
+let mystack= new stack(10)
+mystack.push(0);
+mystack.push(10);
+mystack.push(15);
+
+mystack.printstacl()
+mystack.Pop()
+
+
+
+Queues - Data satucture works on the first in first out 
+using 
+push - add element to end 
+shift - removes first element
+
+Problem on Queue
+class queue
+{
+    constructor(capacity)
+    {
+        this.memory=[];
+        this.capacity=capacity;
+    }
+
+
+enque(element)
+{
+    if(this.memory.length<this.capacity)
+    {
+        this.memory.push(element)
+        
+    }
+    else
+    {
+        console.log("stack is full")
+    }
+}
+deque()
+{
+    if(this.memory.length>0)
+    {
+        let b=  this.memory.shift()
+        console.log(" element b is", b,"is removed")
+    }
+    else
+    {
+        console.log("stack is empty")
+    }
+}
+printstacl()
+{
+        console.log(this.memory.join(', '))
+}
+}
+
+let myqueue= new queue(10)
+myqueue.enque(0);
+myqueue.enque(10);
+myqueue.enque(15);
+
+
+ 

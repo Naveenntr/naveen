@@ -1,0 +1,52 @@
+Recursion - If you have a senerio where you can express a bigger problem in terms of smaller same problem then its is case for recursion.
+
+find sum of n numbers
+
+function sum(n)
+{
+if(n==1)
+{
+    return 1;
+}
+else 
+
+{
+    return sum(n-1)+n;
+}
+}
+console.log(sum(5));
+
+output - 15 
+
+
+2 - Given N number find its factorial let N=5 
+
+function facto(n)
+{
+if(n==1)
+{
+    return 1;
+}
+else 
+
+{
+ return facto(n-1)*n;
+}
+}
+console.log(facto(5));
+
+Output - 120 
+
+
+3 - Given a = 0 , b=1 print fibonic of given series where N=5
+
+function fibo(a, b, n) {
+    if (n === 0) {
+    } else {
+        let sum = a + b;
+        console.log(sum);
+       return fibo(b, sum, n - 1);
+    }
+}
+
+output - 1,2,3,5,8 
