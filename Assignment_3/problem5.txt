@@ -1,0 +1,21 @@
+5.
+
+function solve(n)
+{
+
+	let i = 1
+	while(i < n)
+	{
+		let x = i
+		while(x--)
+		{
+			o(1)
+		}
+		i++
+	}
+}
+
+
+* where outer loot runs from 1 to n-1 times where time complexity is n 
+* For each iteration of the outer loop, the inner loop runs i times where i takes values from 1 to n - 1.
+* timecomplexity is O(n^2)

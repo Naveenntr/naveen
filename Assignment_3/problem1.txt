@@ -1,0 +1,13 @@
+1. function solve(int n){
+    for(let i = 0; i < n; i++){
+        for(int j=0; j < i / 2; j++){
+            // O(1) operation
+        }
+    }
+}
+
+1)  where Outter loop runs from 0 to n-1 times 
+2)  inner loop runs from 0 to i/2 , 
+3) there fore inner loop also runs from 0 to n-1 
+
+Therefore time compplexity of given problrm is O(n^2) 

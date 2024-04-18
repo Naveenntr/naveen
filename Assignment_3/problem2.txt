@@ -1,0 +1,15 @@
+2. 
+What is the time complexity of following code:
+ 
+let a = 0, let i = N; 
+while (i > 0) { 
+    a += i; 
+    i /= 2; 
+}
+
+* less assume i runs 'n' times
+* where loop runs until i>0 
+* i is devided by 2 (half every times until i is less then 0)
+* there fore time complexity is O(logn) - ( becaue n is devidedy 2)
+
+ 

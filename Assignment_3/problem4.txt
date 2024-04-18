@@ -1,0 +1,19 @@
+function solve(n)
+{
+	let i = n
+	while(i>0)
+	{
+		if(i%2 == 0)
+		{
+			for(let j = 1; j <= n*n; j+=2)
+			{
+				statements
+			}
+		}
+		i /=2
+	}
+}
+
+* outer loop runs logn time (Because it is devided by 2 every time untill is reached less than 0 )
+* innner loop runs n^2 times (Because nested loop i iterates 0 to n*n)
+* therefore overall timecomplexity is O(n^2logn)
